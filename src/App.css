@@ -1,0 +1,31 @@
+
+.App {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#display {
+  margin-bottom: 20px;
+}
+#display span {
+  font-size: 36px;
+}
+
+button {
+
+  font-size: 16px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin: 5px 5px;
+}
+button:hover {
+  background-color: rgb(28, 55, 173);
+}
+button:focus {
+  outline: 0;
+}
